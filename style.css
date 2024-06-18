@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+body {
+
+    font-family: "Inter", sans-serif;
+    width: 99vw;
+}
+
+header {
+    margin: 30px 50px 164px 50px;
+
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 162px;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 45px;
+    margin: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 16px;
+    color: #101A24;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    font-weight: 600;
+}
+
+.table-btn {
+    background-color: #EA6D27;
+    color: white;
+    border: none;
+    padding: 15px;
+    height: 55px;
+    width: 167px;
+    
+}
+.table-btn:hover,.table-btn2:hover{
+    background-color: #cd4b00;
+
+}
+
+.section-one {
+    display: flex;
+    gap: 126px;
+    padding: 0 50px;
+}
+
+.table-btn2 {
+    background-color: #EA6D27;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    height: 48px;
+    width: 160px;
+}
+
+.menu-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px;
+    padding: 15px;
+    height: 48px;
+    width: 140px;
+}
+.menu-btn:hover{
+    background-color: rgb(32, 32, 32);
+    
+}
+.icon-social {
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.img-pos-chan {
+    position: relative;
+    bottom: 400px;
+    right: 200px;
+}
+
+.section-one-cont1 h1 {
+    font-size: 60px;
+    margin-bottom: 61px;
+    width: 510px;
+    height: 144px;
+    font-family: "David Libre", serif;
+}
+
+.s1-p {
+    height: 115px;
+    width: 376px;
+
+}
+
+.s1-btns {
+    margin-bottom: 94px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.section-two {
+    background-color: #F3F4F4;
+    padding-bottom: 100px;
+}
+
+.s2-upper-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.s2-upper-text div {
+    height: 65px;
+    width: 376px;
+    margin-top: 21px;
+
+}
+
+.section-two h1 {
+    font-size: 50px;
+    font-family: "David Libre", serif;
+}
+
+.food-container {
+    margin-top: 75px;
+    margin-bottom: 130px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.food-item {
+    height: 309px;
+    width: 265px;
+    border: 2px solid white;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+.food-item img {
+    position: absolute;
+    bottom: 200px;
+    left: 20px;
+}
+
+.fi-text {
+    position: absolute;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.fi-text h3 {
+    margin-bottom: 21px;
+}
+
+.fi-text p {
+    width: 225px;
+    height: 70px;
+    text-align: center;
+}
+
+.s2-lower-cont {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20px;
+
+
+
+}
+
+.s2-lower-cont-p2 h1 {
+    width: 520px;
+    height: 120px;
+    margin-bottom: 25px;
+    font-family: "David Libre", serif;
+}
+
+.s2-lower-cont-p2 div {
+    height: 115px;
+    width: 376px;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.s3-upper-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.s3-upper-text h1 {
+    font-size: 50px;
+    font-family: "David Libre", serif;
+}
+
+.s3-upper-text div {
+    height: 65px;
+    width: 376px;
+    margin-top: 21px;
+    text-align: center;
+
+}
+
+
+
+.s3-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.s3-main-pp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 25px;
+
+}
+
+.s3-main-pp span {
+    height: 51px;
+    width: 258.84px;
+}
+
+.section-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    background: #F3F4F4;
+
+}
+
+.s4-upper-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.s4-upper-text h1 {
+    font-size: 50px;
+    font-family: "David Libre", serif;
+}
+
+.s4-upper-text div {
+    height: 65px;
+    width: 376px;
+    margin-top: 21px;
+    text-align: center;
+}
+
+.com-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+
+.com-cont .note-it {
+    position: absolute;
+    top: 404px;
+    z-index: 1;
+    left: 724px;
+}
+
+.card-com {
+    height: 391px;
+    width: 550px;
+    background-color: #5C6574;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+
+
+.card-com .text {
+    width: 383px;
+    height: 155px;
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 35px;
+    padding-bottom: 40px;
+
+}
+
+.sign-in h3 {
+    font-size: 40px;
+}
+
+.sign-in div {
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.sign-in div input {
+    padding: 10px;
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.subscribe {
+    background-color: #EA6D27;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    height: 40px;
+    width: 120px;
+    border: none;
+}
+.subscribe:hover{
+    background-color: #cd4b00;
+}
+footer {
+    background-color: #F3F4F4;
+}
+
+footer .footer-top {
+    padding: 60px;
+    display: flex;
+    gap: 70px;
+}
+
+.foot-left div img {
+    position: relative;
+    bottom: 35px;
+}
+
+.foot-left div p {
+    width: 408px;
+    height: 90px;
+    position: relative;
+}
+
+.foot-left div p span {
+    position: absolute;
+    top: 38px;
+    left: 55px;
+    text-decoration: underline;
+}
+
+.foot-left :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.foot-left :nth-child(2) div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navigation,
+.dishes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.navigation ul,
+.dishes ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.navigation ul li,
+.dishes ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.navigation ul li:hover,
+.dishes ul li:hover {
+    font-weight: 600;
+}
+
+.follow-us {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.footer-bottom {
+    background-color: #5C6574;
+    padding: 30px;
+}
+
+.footer-bottom :first-child {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.footer-bottom>div :nth-child(2) {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-bottom>div :nth-child(2) span:hover {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer-bottom .note-imp {
+    display: block;
+}
