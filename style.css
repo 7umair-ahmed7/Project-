@@ -469,4 +469,13 @@ footer .footer-top {
 
 .footer-bottom .note-imp {
     display: block;
+
+}
+.note-imp a{
+    text-decoration: none;
+    color: white;
+}
+.note-imp a:hover{
+    text-decoration: underline;
+
 }
